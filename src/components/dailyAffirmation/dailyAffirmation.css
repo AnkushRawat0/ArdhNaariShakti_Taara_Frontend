@@ -5,36 +5,28 @@
   text-align: center;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  animation: fadeIn 0.5s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  background-color: #f8f9fa; /* Simplified to a solid light background */
 }
 
 .affirmation-widget h2 {
   font-size: 1.5rem;
-  color: rgb(18, 113, 255);
+  color: #212529; /* Dark text for better readability */
   margin-bottom: 10px;
 }
 
 blockquote {
   font-size: 1.2rem;
-  color: #5a5a5a;
+  color: #495057; /* Neutral dark text */
   margin: 20px 0;
   font-style: italic;
+  background: none; /* Removed background */
+  padding: 0;
+  border-radius: 0;
 }
 
 blockquote footer {
   font-size: 1rem;
-  color: #212121;
+  color: #6c757d; /* Subtle footer text */
   margin-top: 10px;
 }
 
@@ -43,7 +35,7 @@ blockquote footer {
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 1rem;
-  background: linear-gradient(40deg, rgb(18, 113, 255), rgb(221, 74, 255));
+  background-color: #007bff; /* Solid button color matching theme */
   color: white;
   border: none;
   border-radius: 8px;
@@ -59,5 +51,5 @@ blockquote footer {
 .goal-tracker {
   margin-top: 10px;
   font-size: 1rem;
-  color: #5a5a5a;
+  color: #495057; /* Neutral dark text */
 }
